@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from .models import Teacher
-from .serializers import TeacherSerializer
+from .models import Teacher,Article
+from .serializers import TeacherSerializer,ArticleSerializer
 from rest_framework.renderers import JSONRenderer
 from django.http import HttpResponse
 

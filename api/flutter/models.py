@@ -7,3 +7,8 @@ class Teacher(models.Model):
     course_name=models.CharField(max_length=50)
     course_duration=models.IntegerField()
     seat=models.IntegerField()
+
+
+class Article(models.Model):
+    title=models.CharField(max_length=250)
+    body=models.CharField(max_length=500)
